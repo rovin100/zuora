@@ -51,7 +51,7 @@ module Zuora::Objects
         :bank_city, :bank_code, :bank_name, :bank_postal_code, :bank_street_name,
         :bank_street_number, :bank_transfer_account_name, :bank_transfer_account_number,
         :bank_transfer_account_type, :bank_transfer_account_number, :bank_transfer_account_type,
-        :bank_transfer_type, :last_transaction_datetime, :payment_method_status
+        :bank_transfer_type, :last_transaction_datetime, :payment_method_status, :default_payment_method
 
       write_only :ach_account_number, :credit_card_number, :credit_card_security_code,
         :gateway_option_data, :skip_validation
